@@ -40,3 +40,15 @@ a = 10;
       y.push(2);
       console.log(x); // [1, 2]
       console.log(y); // [1, 2]
+      
+ 8. Sort an array of users
+ => let arr = ['Monica', 'Joey' , 'Phoebe', 'Ross', 'Chandler', 'Rachel'];
+      arr.sort(function (a,b) {
+      let x = a.toLowerCase();
+      let y = b.toLowerCase();
+       if(x>y){return -1;}
+       if(x<y){return 1;}
+       return 0;
+       });
+   o/p: ['Chandler', 'Joey', 'Monica', 'Phoebe', 'Rachel', 'Ross']
+       
