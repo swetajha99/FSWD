@@ -46,8 +46,8 @@ a = 10;
       arr.sort(function (a,b) {
       let x = a.toLowerCase();
       let y = b.toLowerCase();
-       if(x>y){return -1;}
-       if(x<y){return 1;}
+       if(x>y){return 1;}
+       if(x<y){return -1;}
        return 0;
        });
    o/p: ['Chandler', 'Joey', 'Monica', 'Phoebe', 'Rachel', 'Ross']
@@ -65,5 +65,26 @@ a = 10;
 
       console.log(add5(2));  // 7
       console.log(add10(2)); // 12
+
+10. Check if number is even or not?
+       const num = 10;
+       if(num%2===0){
+       console.log('even number');}
+       else{
+       console.log('odd number');}
+       
+ 11. Print 1 to 10 after 2 sec of interval
+      function timer(n) {
+      for (let i = 0; i < 10; i++) {
+        setTimeout(function () {
+            console.log(i);
+              }, n*i);
+          }
+      }
+
+      timer(2000);
       
-10. What are promises?
+ 12.Is Javascript statically typed or dynamically typed?
+      Dynamically 
+      
+ 
